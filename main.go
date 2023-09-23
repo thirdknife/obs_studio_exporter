@@ -48,7 +48,6 @@ import (
 
 var (
 	obsLock sync.Mutex
-
 	activeMetricCollector *MetricCollector
 )
 
